@@ -79,3 +79,4 @@ Esta é uma simulação simplificada do Raft que demonstra conceitos básicos. U
 - Replicação de log mais robusta
 - Armazenamento persistente
 - Cenários de falha de rede mais complexos
+- Falta do desenvolvimento de testes para a aplicação
