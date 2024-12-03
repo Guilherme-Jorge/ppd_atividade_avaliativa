@@ -40,7 +40,7 @@ Os nós podem estar em um dos três estados:
 python app.py
 ```
 
-### Configurable Parameters
+### Parâmetros Configuráveis
 
 Você pode modificar a simulação ajustando esses parâmetros na seção `__main__`:
 - `num_nodes`: Número de nós no cluster (padrão: 5)
