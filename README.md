@@ -23,9 +23,9 @@ Os nós podem estar em um dos três estados:
 ### Detalhes da Implementação do Algoritmo
 
 #### Leader Election (Eleição do Líder)
-1. When a follower doesn't receive heartbeats, it becomes a candidate
-2. The candidate increments its term and requests votes from other nodes
-3. If a majority of nodes vote in favor, the candidate becomes the leader
+1. Quando um seguidor não recebe heartbeats, ele se torna um candidato
+2. O candidato incrementa seu mandato e solicita votos de outros nós
+3. Se a maioria dos nós votar a favor, o candidato se torna o líder
 
 #### Fault Tolerance (Tolerância a Falhas)
 - Os nós têm tempos limite de eleição aleatórios para evitar votos divididos
